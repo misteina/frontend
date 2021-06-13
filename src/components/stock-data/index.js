@@ -1,6 +1,5 @@
 import React from "react";
 import Error from "../error/error";
-import NoResult from "../no-result/no-result";
 import DisplayData from "../display-data/display-data";
 import "./index.css";
 
@@ -39,7 +38,6 @@ export default function StockData() {
                 <button onClick={submitDate} className="" id="submit-button" data-testid="submit-button">Search</button>
             </section>
             <DisplayData data={data} />
-            <NoResult data={data} />
         </div>
     );
 }
